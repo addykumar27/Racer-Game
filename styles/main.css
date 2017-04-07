@@ -1,22 +1,76 @@
+ header {
+	color:;
+	text-align: center;
+}
+
+
 h1 {
   color:#00008B;
   text-align: center;
   font-size:30px;
+  font-size: 30px;
+  margin: 0;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  
 }
 
-header {
-color:#00008B;
+p {
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+#container {
+	background-image: url("");
 	
 }
 
-body {
-  background:#000000;
+
+#tom {
+	position: relative;
+	left:0px;
+	top:15px;
+	width: 100px;
 
 }
 
-
-#container {
-
+#jerry {
+	position: relative;
+	left: 0;
+	top: -150px;
+	width: 100px;
 
 
 }
+
+#tom-instructions {
+	float: left;
+}
+
+#jerry-instructions {
+	float: right;
+}
+
+
+.amazing-race {
+	position: relative;
+	
+}
+
+img {
+	display: block;
+}
+
+
+/*
+ header {
+	color:;
+	text-align: center;
+}
+
+
+
+
