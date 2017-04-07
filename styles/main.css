@@ -2,7 +2,7 @@
 	color:;
 	text-align: center;
 }
-
+/* add back gground image here*/
 
 h1 {
   color:#00008B;
@@ -30,17 +30,17 @@ p {
 
 
 #tom {
-	position: relative;
+	position: absolute;
 	left:0px;
-	top:15px;
+	top:250px;
 	width: 100px;
 
 }
 
 #jerry {
-	position: relative;
+	position: absolute;
 	left: 0;
-	top: -150px;
+	top: 120px;
 	width: 100px;
 
 
