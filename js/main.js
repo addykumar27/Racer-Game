@@ -28,13 +28,11 @@ $(document).ready(function() {
 //detect collision
    var tomPos = $('#tom').position();    
             console.log(tomPos);
-            if(tomPos.left === 800) {
-                alert("tom won");    
+            if(tomPos.left === 950) {   
             }
    var jerryPos = $('#jerry').position();    
             console.log(tomPos);
-            if(jerryPos.left === 800) {
-                alert("jerry won");    
+            if(jerryPos.left === 950) { 
             }
 
 

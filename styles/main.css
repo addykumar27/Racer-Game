@@ -24,8 +24,8 @@ p {
 
 }
 
-#container {
-	background: src="./images/racerbackground.png";
+body {
+	background-image: url('../images/trackbackground.jpg');
   
  }
 
@@ -41,7 +41,7 @@ p {
 #jerry {
 	position: absolute;
 	left: 0;
-	top: 120px;
+	top: 150px;
 	width: 100px;
 
 
