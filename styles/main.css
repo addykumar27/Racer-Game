@@ -1,6 +1,7 @@
  header {
 	color:;
 	text-align: center;
+
 }
 /* add back gground image here*/
 
@@ -24,9 +25,9 @@ p {
 }
 
 #container {
-	background-image: url("");
-	
-}
+	background: src="./images/racerbackground.png";
+  
+ }
 
 
 #tom {

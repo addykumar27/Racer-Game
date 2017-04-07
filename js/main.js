@@ -22,24 +22,26 @@ $(document).ready(function() {
 
  $(document).keydown(function(event){
  if(event.keyCode == 83) {
-   $('#tom').animate({'left':'+=10'},20)}
+   $('#tom').animate({'left':'+=10'},0)}
    if(event.keyCode == 76) {
-   $('#jerry').animate({'left':'+=10'},20)}
+   $('#jerry').animate({'left':'+=10'},0)}
+//detect collision
+   var tomPos = $('#tom').position();    
+            console.log(tomPos);
+            if(tomPos.left === 800) {
+                alert("tom won");    
+            }
+   var jerryPos = $('#jerry').position();    
+            console.log(tomPos);
+            if(jerryPos.left === 800) {
+                alert("jerry won");    
+            }
+
 
  //when tom or jerry reaches end of track first wins!!!
-  if($('#tom').css('left')=='750px') {
-    if(gameOver!==true) {
-      alert('tom wins! Time to eat jerry')
-      gameEnds=true;
-    }
-  }
-  if($('#jerry').css('left')=='750px') {
-    if(gameOver!==true) {
-      alert('jerry wins! Time for some cheese')
-      gameEnds=true;
-    }
-  }
+
 });
+ //for detecting collision
 
 
 //for restarting the game
@@ -47,7 +49,7 @@ $('#reset').click(function(){
   $('#tom').animate({left:'0px'},0);
   $('#jerry').animate({left:'0px'},0);  
   gameEnds=false;
-  boardLength();
+  trackLength();
 });
 
 });
