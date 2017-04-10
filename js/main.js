@@ -37,4 +37,17 @@ $('#reset').click(function(){
 });
 
 });
+var compScore = 0
+var playerScore = 0
 
+function roundUp(winner){
+round++; //increments round
+  if(winner === tom || jerry){
+        compScore++; //increments score
+        document.getElementById("compScore").innerHTML  = compScore; //updates HTML
+    }
+    else if(winner === tom || jerry){
+        playerScore++; //increments score
+        document.getElementById("playerScore").innerHTML  = playerScore; //updates HTML
+    }
+};
