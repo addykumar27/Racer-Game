@@ -24,8 +24,15 @@ p {
 
 }
 
+#container {
+
+
+}
+
+
 body {
 	background-image: url('../images/trackbackground.jpg');
+
   
  }
 
@@ -65,7 +72,10 @@ img {
 	display: block;
 }
 
+#finishline {
 
+	margin-left: 900px;
+}
 
 
 
